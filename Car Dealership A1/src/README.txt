@@ -1,0 +1,5 @@
+CPS209 - Assignment 2
+Name: Ken Luu
+ID: 500901583
+
+All aspects of the program should function accordingly. The buy car command now accepts a VIN as the argument and will remove the car with a matching VIN from the list and will display a purchase receipt. The return method now accepts an ID from a previous transaction and will search for that ID from a list of transactions and check if that ID has been returned before, if not then that car will be returned and a receipt will be printed to the user dating the return, otherwise they will be notified that it was already returned. Sales team would display all members of the sales team. Sales month requires an integer input representing a month (0 being January) and would return all transactions of that month. Sales stats will only display statistics if a transaction has been made. Sales topsp will display the sellers with the most sales, and if there is a tie then sellers that are tied will be displayed. The program also now reads a list of car objects from a file and catches possible errors that may occur with file reading which includes IOExceptions.
